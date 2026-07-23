@@ -22,7 +22,7 @@ sudo apt install trance-saver-cosmos
 # or: sudo dnf install trance-saver-cosmos
 ```
 
-See [idlescreen.github.io/idle-packages](https://idlescreen.github.io/idle-packages/).
+See [idlescreen.github.io/packages](https://idlescreen.github.io/packages/).
 
 ## License
 
