@@ -1,15 +1,15 @@
 # saver-cosmos
 
-Official **cosmos** visualizer plugin for [IdleScreen](https://github.com/idlescreen/idle-core).
+Official **cosmos** visualizer plugin for [IdleScreen](https://github.com/idlescreen/idle).
 
 ## Build
 
-Requires a sibling checkout of the core daemon for `idle-api`:
+Requires the idle engine checked out into `./idle` for `idle-api` path deps:
 
 ```bash
-git clone https://github.com/idlescreen/idle-core.git
-git clone https://github.com/idlescreen/saver-cosmos.git
-cd saver-cosmos
+git clone https://github.com/idlescreen/idle-saver-cosmos.git
+cd idle-saver-cosmos
+git clone https://github.com/idlescreen/idle.git idle
 cargo build --release
 ```
 
